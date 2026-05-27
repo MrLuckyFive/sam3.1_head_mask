@@ -1,0 +1,15 @@
+# SAM 3.1 itself is installed separately from facebookresearch/sam3 (see README).
+# Everything below is needed by the pipelines in this repo.
+
+torch>=2.7
+torchvision
+opencv-python>=4.10
+numpy>=1.26,<2
+h5py>=3.10
+einops>=0.7
+pycocotools
+timm>=1.0.17
+ftfy==6.1.1
+regex
+iopath>=0.1.10
+huggingface_hub>=0.24

@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+*.egg
+.Python
+build/
+dist/
+.venv/
+venv/
+env/
+.tox/
+
+# Editors
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Run artifacts
+output/
+outputs/
+state/
+work/
+logs/
+*.log
+*.tmp.mp4
+*.tmp.hdf5
+
+# Checkpoints (3.5 GB, not stored in git)
+checkpoints/*.pt
+checkpoints/*.bin
+checkpoints/*.safetensors
+ckpt/
+sam3.1_*.pt
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local data
+examples/*.mp4
+examples/*.hdf5
+*.mcap
